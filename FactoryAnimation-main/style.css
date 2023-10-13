@@ -1,0 +1,571 @@
+*{
+    padding: 0;
+    margin: 0;    
+    overflow: hidden;
+}
+
+body{
+    position: relative;
+    width:100vw;
+    height: 100vh;
+    display: grid;
+    background-color: #333333;
+}
+
+
+.div-animation {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+}
+
+/*Animation*/
+.metal-left {
+    width: 350px;
+    position: absolute;
+    top: 205px;
+}
+
+.metal-right {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    left: 40px;
+    margin-left: 10px;
+}
+
+.track0, .track1, .track2, .track3, .track4, .track5, .track6, .track7, .track8, .track9, .track10 {
+    position: absolute;
+    height: 30px;
+}
+
+.track0 {
+    top: 50%;
+    margin-top: -15px;
+    left: -35px;
+    opacity: 0;
+    animation-name: track0animation;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+}
+@keyframes track0animation{
+    from {
+        margin-top: -15px;
+        left: -35px;
+        opacity: 0;
+    }
+    to {
+        margin-top: -10px;
+        opacity:1;
+        left:0;
+    }
+}
+
+
+.track1 {
+    top: 50%;
+    margin-top: -10px;
+    animation-name: track1animation;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+}
+@keyframes track1animation {
+    from {
+        margin-top: -10px;
+        left: 0;
+    }
+
+    to {
+        margin-top: -5px;
+        left: 35px;
+    }
+}
+
+.track2 {
+    top: 50%;
+    margin-top: -5px;
+    left: 35px;
+    animation-name: track2animation;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+}
+@keyframes track2animation {
+    from {
+        margin-top: -5px;
+        left: 35px;
+    }
+
+    to {
+        margin-top: 0px;
+        left: 69px;
+    }
+}
+
+.track3 {
+    top: 50%;
+    margin-top: 0px;
+    left: 69px;
+    animation-name: track3animation;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+}
+@keyframes track3animation {
+    from {
+        margin-top: 0px;
+        left: 69px;
+    }
+
+    to {
+        margin-top: 5px;
+        left: 103px;
+    }
+}
+
+.track4 {
+    top: 50%;
+    margin-top: 5px;
+    left: 103px;
+    animation-name: track4animation;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+}
+@keyframes track4animation {
+    from {
+        margin-top: 5px;
+        left: 103px;
+    }
+
+    to {
+        margin-top: 10px;
+        left: 137px;
+    }
+}
+
+.track5 {
+    top: 50%;
+    margin-top: 10px;
+    left: 137px;
+    animation-name: track5animation;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+}
+@keyframes track5animation {
+    from {
+        margin-top: 10px;
+        left: 137px;
+    }
+
+    to {
+        margin-top: 15px;
+        left: 170px;
+    }
+}
+
+.track6 {
+    top: 50%;
+    margin-top: 15px;
+    left: 170px;
+    animation-name: track6animation;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+}
+@keyframes track6animation {
+    from {
+        margin-top: 15px;
+        left: 170px;
+    }
+
+    to {
+        margin-top: 20px;
+        left: 204px;
+    }
+}
+
+.track7 {
+    top: 50%;
+    margin-top: 20px;
+    left: 204px;
+    animation-name: track7animation;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+}
+@keyframes track7animation {
+    from {
+        margin-top: 20px;
+        left: 204px;
+    }
+
+    to {
+        margin-top: 25px;
+        left: 237px;
+    }
+}
+
+.track8 {
+    top: 50%;
+    margin-top: 25px;
+    left: 237px;
+    animation-name: track8animation;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+}
+@keyframes track8animation {
+    from {
+        margin-top: 25px;
+        left: 237px;
+    }
+
+    to {
+        margin-top: 30px;
+        left: 270px;
+    }
+}
+
+.track9 {
+    top: 50%;
+    margin-top: 30px;
+    left: 270px;
+    animation-name: track9animation;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+}
+@keyframes track9animation {
+    from {
+        margin-top: 30px;
+        left: 270px;
+    }
+
+    to {
+        margin-top: 35px;
+        left: 303px;
+    }
+}
+
+.track10 {
+    top: 50%;
+    margin-top: 35px;
+    left: 303px;
+    animation-name: track10animation;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+}
+@keyframes track10animation {
+    from {
+        margin-top: 35px;
+        left: 303px;
+        opacity:1;
+    }
+
+    to {
+        margin-top: 40px;
+        left: 338px;
+        opacity:0;
+    }
+}
+
+
+
+
+
+.number-1 {
+    position: absolute;
+    height: 40px;
+    top: 50%;
+    margin-top: -45px;
+    left: 10px;
+    animation-name: number1animation;
+    animation-direction: normal;
+    animation-duration: 4.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes number1animation{
+    0% {
+        opacity:0;
+        margin-top: -40px;
+        left: 10px;
+    }
+    10% {
+        opacity:1;
+    }
+    100% {
+        opacity: 1;
+        margin-top: -20px;
+        left: 150px;
+    }
+}
+
+
+.number-2 {
+    position: absolute;
+    height: 40px;
+    top: 50%;
+    margin-top: -33px;
+    left: 45px;
+    animation-name: number2animation;
+    animation-direction: normal;
+    animation-duration: 4.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;    
+}
+@keyframes number2animation {
+    0% {
+        opacity: 1;
+        margin-top: -33px;
+        left: 45px;
+    }
+    75% {
+        opacity: 1;
+        margin-top: -20px;
+        left: 150px;
+    }
+    76% {
+        opacity: 0;
+        margin-top: -40px;
+        left: 10px;
+    }
+    86%{
+        opacity:1;
+    }
+    100% {
+        opacity: 1;
+        margin-top: -33px;
+        left: 45px;
+    }
+}
+
+
+.number-3 {
+    position: absolute;
+    height: 40px;
+    top: 50%;
+    margin-top: -28px;
+    left: 85px;
+    animation-name: number3animation;
+    animation-direction: normal;
+    animation-duration: 4.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes number3animation {
+    0% {
+        opacity: 1;
+        margin-top: -28px;
+        left: 85px;
+    }
+
+    50% {
+        opacity: 1;
+        margin-top: -20px;
+        left: 150px;
+    }
+    51% {
+        opacity: 0;
+        margin-top: -40px;
+        left: 10px;
+    }
+    61% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: -28px;
+        left: 85px;
+    }
+}
+
+
+.number-4 {
+    position: absolute;
+    height: 40px;
+    top: 50%;
+    margin-top: -23px;
+    left: 120px;
+    animation-name: number4animation;
+    animation-direction: normal;
+    animation-duration: 4.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes number4animation {
+    0% {
+        opacity: 1;
+        margin-top: -23px;
+        left: 120px;
+    }
+    20% {
+        opacity: 1;
+        margin-top: -20px;
+        left: 150px;
+    }
+    21% {
+        opacity: 0;
+        margin-top: -40px;
+        left: 10px;
+    }
+    31% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        margin-top: -23px;
+        left: 120px;
+    }
+}
+
+
+.star-1{
+    position:absolute;
+    height:40px;
+    top:50%;
+    left:180px;
+    margin-top:-7px;
+    animation-name:star1animation;
+    animation-direction:normal;
+    animation-iteration-count:infinite;
+    animation-duration:5s;
+    animation-timing-function:linear;
+}
+@keyframes star1animation{
+    0% {
+        left: 180px;
+        margin-top: -10px;
+        opacity:1;
+    }
+    90%{opacity:1;}
+    100% {
+        left: 350px;
+        margin-top: 14px;
+        opacity: 0;
+    }
+}
+
+
+.star-2 {
+    position: absolute;
+    height: 40px;
+    top: 50%;
+    left: 250px;
+    margin-top: 0px;
+    animation-name: star2animation;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+@keyframes star2animation {
+    0% {
+        left: 250px;
+        margin-top: 0px;
+        opacity: 1;
+    }
+    50%{opacity:1;}
+    60% {
+        opacity: 0;
+        left: 350px;
+        margin-top: 14px;
+    }
+    61% {
+        left: 180px;
+        margin-top: -10px;
+        opacity: 1;
+    }
+    100% {
+        left: 250px;
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
+
+
+.star-3 {
+    position: absolute;
+    height: 40px;
+    top: 50%;
+    left: 290px;
+    margin-top: 6px;
+    animation-name: star3animation;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+
+@keyframes star3animation {
+    0% {
+        left: 290px;
+        margin-top: 6px;
+        opacity: 1;
+    }
+    18%{opacity:1;}
+    28% {
+        opacity: 0;
+        left: 350px;
+        margin-top: 14px;
+    }
+    29% {
+        left: 180px;
+        margin-top: -10px;
+        opacity: 1;
+    }
+    100% {
+        left: 290px;
+        margin-top: 6px;
+        opacity: 1;
+    }
+}
+
+
+.metal-left2{
+    position:absolute;
+    height:130px;
+    left:50%;
+    top:50%;
+    width:70px;
+    margin-top:-50px;
+    margin-left:-50px;
+}
+.metal-right2 {
+    position: absolute;
+    height: 130px;
+    left: 50%;
+    top: 50%;
+    width: 70px;
+    margin-top: -65px;
+    margin-left: -19px;
+}
+.metal-top{
+    position:absolute;
+    width:99px;
+    top:50%;
+    left:50%;
+    margin-left:-49px;
+    margin-top:-69px;
+}
